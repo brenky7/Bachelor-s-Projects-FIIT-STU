@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__
+gitignore/
+papers/
+untracked/
+adm/
+tziv/
+prednasky/
+os/
+*iml
+.idea/
+*.docx
+*.xlsx
+.venv/
+venv/
+.env
