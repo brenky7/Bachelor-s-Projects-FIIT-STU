@@ -14,3 +14,17 @@ os/
 .venv/
 venv/
 .env
+cmake-build-debug/
+cachedir/
+*.pptx
+env/
+logs/
+*.log
+NUMBERS_10M.txt
+NAMES_10M.txt
+out/
+target/
+build/
+*.jar
+*.class
+dependency-reduced-pom.xml

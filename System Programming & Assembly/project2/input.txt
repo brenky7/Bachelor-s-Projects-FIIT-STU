@@ -1,0 +1,1 @@
+ ls #-la > abcd.txt; wc -l < abcd.txt; cat abcd.txt

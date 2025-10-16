@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  server:
+    build: .
+    ports:
+      - "60000:60000"
+
+  client1:
+    build: .
+    command: ["./shell", "-c", "-p", "60001"]
+    depends_on:
+      - server
+
+  client2:
+    build: .
+    command: ["./shell", "-c", "-p", "60002"]
+    depends_on:
+      - server

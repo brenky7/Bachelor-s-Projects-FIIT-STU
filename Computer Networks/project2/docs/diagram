@@ -1,0 +1,817 @@
+<mxfile host="app.diagrams.net" modified="2023-11-20T18:16:04.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" etag="8VT6gQbDS33XAQwd69Et" version="22.1.3" type="device">
+  <diagram name="Page-1" id="4ZI83WaLjFnJpypUunD_">
+    <mxGraphModel dx="954" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-51" value="Poslať správu alebo súbor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="535" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ssNhS_1BXc2m1dtslQT-1" value="štart programu" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="385" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ssNhS_1BXc2m1dtslQT-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1ssNhS_1BXc2m1dtslQT-1" edge="1" target="1ssNhS_1BXc2m1dtslQT-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="70" as="sourcePoint" />
+            <mxPoint x="580" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="665" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ssNhS_1BXc2m1dtslQT-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1ssNhS_1BXc2m1dtslQT-1" edge="1" target="1ssNhS_1BXc2m1dtslQT-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="20" as="sourcePoint" />
+            <mxPoint x="220" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ssNhS_1BXc2m1dtslQT-4" value="odosielateľ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ssNhS_1BXc2m1dtslQT-5" value="prijímateľ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="625" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ssNhS_1BXc2m1dtslQT-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1ssNhS_1BXc2m1dtslQT-5" edge="1" target="1ssNhS_1BXc2m1dtslQT-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="280" as="sourcePoint" />
+            <mxPoint x="665" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ssNhS_1BXc2m1dtslQT-7" value="zadanie portu" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ssNhS_1BXc2m1dtslQT-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1ssNhS_1BXc2m1dtslQT-4" edge="1" target="1ssNhS_1BXc2m1dtslQT-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="120" as="sourcePoint" />
+            <mxPoint x="180" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ssNhS_1BXc2m1dtslQT-10" value="zadanie portu  a IP adresy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="135" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-1" value="odoslanie inicializačného paketu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="180" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ssNhS_1BXc2m1dtslQT-10" target="LyEUtuiJgirU2_EcGNdI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="240" as="sourcePoint" />
+            <mxPoint x="410" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-3" value="Došiel init paket?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ssNhS_1BXc2m1dtslQT-7" target="LyEUtuiJgirU2_EcGNdI-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="240" as="sourcePoint" />
+            <mxPoint x="665" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-5" value="čakanie na init paket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-5" target="LyEUtuiJgirU2_EcGNdI-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="240" as="sourcePoint" />
+            <mxPoint x="665" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-3" target="LyEUtuiJgirU2_EcGNdI-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="390" as="sourcePoint" />
+            <mxPoint x="765" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="765" y="280" />
+              <mxPoint x="765" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-3" target="LyEUtuiJgirU2_EcGNdI-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="380" as="sourcePoint" />
+            <mxPoint x="665" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-9" value="Áno" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="665" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-10" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-12" value="Odošli ACK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-12" target="LyEUtuiJgirU2_EcGNdI-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="390" as="sourcePoint" />
+            <mxPoint x="665" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-14" value="Spojenie nadviazane" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="390" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-16" value="&lt;div&gt;Došiel&amp;nbsp;&lt;/div&gt;&lt;div&gt;ACK&amp;nbsp;&lt;/div&gt;&lt;div&gt;paket?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-1" target="LyEUtuiJgirU2_EcGNdI-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="180" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="350" as="sourcePoint" />
+            <mxPoint x="180" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-19" value="Čakanie na ACK paket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-19" target="LyEUtuiJgirU2_EcGNdI-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="350" as="sourcePoint" />
+            <mxPoint x="370" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-16" target="LyEUtuiJgirU2_EcGNdI-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="370" as="sourcePoint" />
+            <mxPoint x="80" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="330" />
+              <mxPoint x="80" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-25" value="Spojenie nadviazane" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-26" value="Áno" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-27" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-14" target="LyEUtuiJgirU2_EcGNdI-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="430" as="sourcePoint" />
+            <mxPoint x="665" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-31" value="Čo robiť?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-25" target="LyEUtuiJgirU2_EcGNdI-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="530" as="sourcePoint" />
+            <mxPoint x="350" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-31" target="LyEUtuiJgirU2_EcGNdI-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="550" as="sourcePoint" />
+            <mxPoint x="270" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-39" value="Odoslať keep alive paket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="410" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-40" value="Čakanie na ACK paket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-39" target="LyEUtuiJgirU2_EcGNdI-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="420" as="sourcePoint" />
+            <mxPoint x="390" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-42" value="&lt;div&gt;Došiel&amp;nbsp;&lt;/div&gt;&lt;div&gt;ACK&amp;nbsp;&lt;/div&gt;&lt;div&gt;paket?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-40" target="LyEUtuiJgirU2_EcGNdI-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="400" as="sourcePoint" />
+            <mxPoint x="390" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-42" target="LyEUtuiJgirU2_EcGNdI-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="360" as="sourcePoint" />
+            <mxPoint x="350" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-47" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-48" value="Áno" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-49" value="Spojenie zrušené" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-50" value="Nerobiť nič" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="530" as="sourcePoint" />
+            <mxPoint x="180" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-53" value="Aký paket došiel?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-53" target="LyEUtuiJgirU2_EcGNdI-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="490" as="sourcePoint" />
+            <mxPoint x="560" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="545" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-55" value="Keep alive " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-56" value="Odoslať ACK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="480" as="sourcePoint" />
+            <mxPoint x="545" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-59" value="Čakanie na keep alive paket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-60" value="Došiel keep alive paket?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-59" target="LyEUtuiJgirU2_EcGNdI-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-60" target="LyEUtuiJgirU2_EcGNdI-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="280" as="sourcePoint" />
+            <mxPoint x="470" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="280" />
+              <mxPoint x="470" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-60" target="LyEUtuiJgirU2_EcGNdI-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="480" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="545" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-65" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-66" value="Áno" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-49" target="LyEUtuiJgirU2_EcGNdI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="310" as="sourcePoint" />
+            <mxPoint x="260" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-49" target="LyEUtuiJgirU2_EcGNdI-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="310" as="sourcePoint" />
+            <mxPoint x="350" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-42" target="LyEUtuiJgirU2_EcGNdI-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="380" as="sourcePoint" />
+            <mxPoint x="380" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="290" />
+              <mxPoint x="370" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-31" target="1ssNhS_1BXc2m1dtslQT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="300" y="10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="490" />
+              <mxPoint x="40" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-71" value="&lt;div&gt;zmeniť&amp;nbsp;&lt;/div&gt;&lt;div&gt;mód / skončiť&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="450" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="560" as="sourcePoint" />
+            <mxPoint x="665" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-53" target="1ssNhS_1BXc2m1dtslQT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="420" as="sourcePoint" />
+            <mxPoint x="810" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="540" />
+              <mxPoint x="810" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-76" value="Žiadosť o zmenu módu / koniec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-77" value="Žiadosť o poslanie správy alebo súboru" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="665" y="570" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-78" value="&lt;div&gt;Treba&amp;nbsp;&lt;/div&gt;&lt;div&gt;rozdeliť na fragmenty?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="640" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-79" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="780" as="sourcePoint" />
+            <mxPoint x="270" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-80" value="Zadanie veľkosti fragmentu a rozdelenie na fragmenty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-81" value="Odoslanie prenosných paketov" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="760" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-82" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-78" target="LyEUtuiJgirU2_EcGNdI-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="740" as="sourcePoint" />
+            <mxPoint x="410" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-83" value="Áno" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="655" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-85" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-86" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-80" target="LyEUtuiJgirU2_EcGNdI-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="850" as="sourcePoint" />
+            <mxPoint x="410" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-87" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="870" as="sourcePoint" />
+            <mxPoint x="180" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-88" value="&lt;div&gt;Prišli pakety&lt;/div&gt;&lt;div&gt;&amp;nbsp;v poriadku?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131.25" y="840" width="97.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-89" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="900" as="sourcePoint" />
+            <mxPoint x="180" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-88" target="LyEUtuiJgirU2_EcGNdI-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="900" as="sourcePoint" />
+            <mxPoint x="80" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="885" />
+              <mxPoint x="90" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-91" value="Áno" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-92" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-93" value="&lt;div&gt;Sú&amp;nbsp;&lt;/div&gt;&lt;div&gt;odoslané všetky&amp;nbsp;&lt;/div&gt;&lt;div&gt;pakety?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="960" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-94" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-93" target="LyEUtuiJgirU2_EcGNdI-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="870" as="sourcePoint" />
+            <mxPoint x="140" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="1005" />
+              <mxPoint x="60" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-95" value="Áno" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="980" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-93" target="LyEUtuiJgirU2_EcGNdI-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="1000" as="sourcePoint" />
+            <mxPoint x="380" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="1005" />
+              <mxPoint x="270" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-98" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="980" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-99" value="Prijatie prenosných paketov" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="680" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="690" as="sourcePoint" />
+            <mxPoint x="665" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-101" value="Prijatie ACK paketu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-101" target="LyEUtuiJgirU2_EcGNdI-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="700" as="sourcePoint" />
+            <mxPoint x="360" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-103" target="LyEUtuiJgirU2_EcGNdI-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-103" value="Odoslanie ACK paketu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="610" width="105" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-106" value="&lt;div&gt;Prišli pakety&lt;/div&gt;&lt;div&gt;&amp;nbsp;v poriadku?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="616.25" y="750" width="97.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-107" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="780" as="sourcePoint" />
+            <mxPoint x="540" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-108" value="Odoslanie NACK paketu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="730" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-109" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LyEUtuiJgirU2_EcGNdI-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="730" as="sourcePoint" />
+            <mxPoint x="460" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-110" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-111" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="830" as="sourcePoint" />
+            <mxPoint x="665" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-113" target="LyEUtuiJgirU2_EcGNdI-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-113" value="Odoslanie ACK paketu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="870" width="105" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-114" value="&lt;div&gt;Prišli&amp;nbsp;&lt;/div&gt;&lt;div&gt;všetky pakety?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="930" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-116" target="LyEUtuiJgirU2_EcGNdI-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-116" value="Čakanie na prichádzajúci paket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="440" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-119" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-114" target="LyEUtuiJgirU2_EcGNdI-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="870" as="sourcePoint" />
+            <mxPoint x="760" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="970" />
+              <mxPoint x="760" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-120" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-122" value="Áno" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-123" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="930" as="sourcePoint" />
+            <mxPoint x="560" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-125" value="Čo robiť?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="930" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-126" value="&lt;div&gt;zmeniť&amp;nbsp;&lt;/div&gt;&lt;div&gt;mód / skončiť&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="1020" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-127" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="910" as="sourcePoint" />
+            <mxPoint x="810" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="1050" />
+              <mxPoint x="810" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-128" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyEUtuiJgirU2_EcGNdI-125" target="LyEUtuiJgirU2_EcGNdI-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="840" as="sourcePoint" />
+            <mxPoint x="460" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="970" />
+              <mxPoint x="460" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyEUtuiJgirU2_EcGNdI-129" value="Ďalej prijímať" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------reverse pakety--------------------------------------------
+sender
+# for i in range(total_packets - 1, -1, -1):     # namiesto while cyklu pre tvorbu fragmentov
+        #     start_idx = i * fragment_size
+        #     end_idx = min((i + 1) * fragment_size, len(encoded_message))
+        #     fragment_data = encoded_message[start_idx:end_idx]
+        #
+        #     header = struct.pack('>HHH', len(fragment_data), total_packets, sequence_number)
+        #
+        #     if error and sequence_number + 1 == int(corrupted_packet):
+        #         crc = "00".encode()
+        #         real_crc = calculate_crc(header + fragment_data)
+        #         real_packet = (header + fragment_data + real_crc)
+        #     else:
+        #         crc = calculate_crc(header + fragment_data)
+        #
+        #     packet = (header + fragment_data + crc)
+        #     packets.insert(0, packet)  # Insert at the beginning of the list
+        #     sequence_number += 1
+        # packets.reverse()
+receiver
+        # fragments.reverse() # Fragments are in reverse order # pred skladanie fragmentov
+
+-------------------------------------------sha 256----------------------------------------------------
+
+sender
+        # sha256 = hashlib.sha256(file_data).digest() # na zaciatku po precitani file_data
+
+        # print("SHA256:", sha256)                      # uplne na konci po odoslani vsetkych fragmentov
+        # sender_sock.send(sha256.hex().encode(FORMAT))
+
+receiver
+        data, address = receiver_sock.recvfrom(RECEIVE_SIZE)        # medzi prijatim paketov a zadavanim path na ulozenie
+        calculated_sha = hashlib.sha256(reconstructed_message).hexdigest()
+        received_sha = data.decode()
+        if received_sha == calculated_sha:
+            print("SHA256 hashes match.")
+            print("Received: " + received_sha)
+            print("Calculated: " + calculated_sha)
+        else:
+            print("Received: " + received_sha)
+            print("Calculated: " + calculated_sha)
+            print("SHA256 hashes do not match.")
+
+-------------------------------------------cezar sifra----------------------------------------------
+sender
+            def cezarova_sifra(sprava, posun):
+                abeceda = "abcdefghijklmnopqrstuvwxyz"
+                posunuta_abeceda = abeceda[posun:] + abeceda[:posun]
+                preklad = str.maketrans(abeceda + abeceda.upper(), posunuta_abeceda + posunuta_abeceda.upper())
+                zasifrovana_sprava = sprava.translate(preklad)
+                return zasifrovana_sprava
+
+            user_message = cezarova_sifra(user_message, 3)          # na zaciatok send funkcie
+            user_message = "_BEGIN_" + user_message + "_END_"
+
+receiver
+            def cezarova_desifra(sifrovana_sprava, posun):
+                abeceda = "abcdefghijklmnopqrstuvwxyz"
+                posunuta_abeceda = abeceda[-posun:] + abeceda[:-posun]
+                preklad = str.maketrans(abeceda + abeceda.upper(), posunuta_abeceda + posunuta_abeceda.upper())
+                desifrovana_sprava = sifrovana_sprava.translate(preklad)
+                return desifrovana_sprava
+
+            original_message = cezarova_desifra(original_message, 3)        # pred vypis rekonstruovanej spravy
+            original_message = original_message[7:-5]
+
+-------------------------------------------parne pakety----------------------------------------------
+
+sender  packets = []
+        total_packets = (len(encoded_message) + fragment_size - 1) // fragment_size
+        sequence_number = 1
+        seq_number_2 = 0
+        print(total_packets)
+        while sequence_number <= total_packets:
+            start_idx = sequence_number * fragment_size
+            end_idx = (sequence_number + 1) * fragment_size
+            fragment_data = encoded_message[start_idx:end_idx]
+            header = struct.pack('>HHH', len(fragment_data), int(total_packets//2), seq_number_2)
+            if error and sequence_number + 1 == int(corrupted_packet):
+                crc = "00".encode()
+                real_crc = calculate_crc(header + fragment_data)
+                real_packet = (header + fragment_data + real_crc)
+            else:
+                crc = calculate_crc(header + fragment_data)
+            packet = (header + fragment_data + crc)
+            packets.append(packet)
+            sequence_number += 2
+            seq_number_2 += 1
+        print(packets)
+        total_packets = int(total_packets // 2)
+
+
+-------------------------------------------neparne pakety----------------------------------------------
+sender
+        packets = []
+        total_packets = (len(encoded_message) + fragment_size - 1) // fragment_size
+        sequence_number = 0
+        seq_number_2 = 0
+        print(total_packets)
+        while sequence_number <= total_packets:
+            start_idx = sequence_number * fragment_size
+            end_idx = (sequence_number + 1) * fragment_size
+            fragment_data = encoded_message[start_idx:end_idx]
+            header = struct.pack('>HHH', len(fragment_data), int(total_packets // 2), seq_number_2)
+            if error and sequence_number + 1 == int(corrupted_packet):
+                crc = "00".encode()
+                real_crc = calculate_crc(header + fragment_data)
+                real_packet = (header + fragment_data + real_crc)
+            else:
+                crc = calculate_crc(header + fragment_data)
+            packet = (header + fragment_data + crc)
+            packets.append(packet)
+            sequence_number += 2
+            seq_number_2 += 1
+        print(packets)
+        total_packets = int(total_packets // 2)
+
+-------------------------------------------vypis chybnych frag----------------------------------------------
+receiver
+        fault_fragments = 0 # na zaciatku funkcie
+        fault_fragments += 1 # do ifov ked je chybny paket
+        # + do printu este pridat
+
+-------------------------------------------modifikacia spravy----------------------------------------------
+sender
+        def modify_message(message):
+            modified_message = ""
+            for char in message:
+                if char.islower():
+                    modified_message += char.upper()
+                elif char.isupper():
+                    modified_message += char.lower()
+                elif char.isdigit():
+                    modified_message += str((int(char) + 1) % 10)
+                else:
+                    modified_message += char
+
+            return modified_message
+
+
+-------------------------------------------5x retransmit po nack----------------------------------------------
+sender
+        if nack:                            # na zaciatok v druhom try pri posielani paketov
+            for i in range(5):
+                sender_sock.send(packets[base])
+                print("Sent packet", base + 1, "of", total_packets)
+            nack = False
+
+receiver
+        if nack:                            # na zaciatok v try pri prijimani paketov
+            for i in range(5):
+                data, address = receiver_sock.recvfrom(RECEIVE_SIZE)
+            nack = False
+
+-------------------------------------------md5 hash----------------------------------------------
+sender
+        hash = hashlib.md5(user_message.encode(FORMAT)).hexdigest() # na zaciatok send message
+        print("Hash of the message:", hash)
+        user_message = user_message + "___" + hash
+
+
+
+receiver
+            received_message = original_message.split("___")[0]  # do vypisu prijatej spravy
+            received_hash = original_message.split("___")[1]
+            calulated_hash = hashlib.md5(received_message.encode(FORMAT)).hexdigest()
+            print("Received message:", received_message)
+            print("Received hash: ", received_hash)
+            print("Calculated hash: ", calulated_hash)
+            if received_hash == calulated_hash:
+                print("Hashes match.")
+            else:
+                print("Hashes don't match.")

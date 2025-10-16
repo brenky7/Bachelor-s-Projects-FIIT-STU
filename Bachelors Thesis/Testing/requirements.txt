@@ -1,0 +1,16 @@
+numpy
+scipy
+sympy
+pyarrow
+pandas
+pandasql
+statsmodels
+scikit-learn
+scikit-optimize
+matplotlib
+seaborn
+mlxtend
+graphviz
+pydot
+jupyterlab
+notebook

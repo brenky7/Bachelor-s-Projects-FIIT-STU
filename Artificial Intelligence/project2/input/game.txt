@@ -1,0 +1,3 @@
+grid_size = 7
+player_position = (6, 3)
+treasure_locations = [(1, 4), (2, 2), (3, 6), (4, 1), (5, 4)]

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: backend.OCSPCacheServer
+Class-Path: jetty-server-11.0.15.jar jetty-servlet-11.0.15.jar jakarta.s
+ ervlet-api-5.0.0.jar jetty-util-11.0.15.jar jetty-http-11.0.15.jar slf4
+ j-api-1.7.36.jar jetty-io-11.0.15.jar jetty-security-11.0.15.jar jedis-
+ 4.3.1.jar logback-classic-1.2.11.jar logback-core-1.2.11.jar bcpkix-jdk
+ 15on-1.70.jar bcprov-jdk15on-1.70.jar gson-2.10.1.jar
+
